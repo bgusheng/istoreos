@@ -27,6 +27,7 @@ jobs:
             libssl-dev \
             python3 \
             python3-setuptools \
+            python3-pyelftools \
             rsync \
             unzip \
             zlib1g-dev \
