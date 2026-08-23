@@ -8,29 +8,18 @@ iStoreOS 是入门级的路由系统，也是入门级的 NAS 系统，
 --------
 
 ![OpenWrt logo](include/logo.png)
+OpenWrt 项目是一个面向嵌入式设备的 Linux 操作系统。与其尝试创建一个单一、固定的固件，OpenWrt 提供了一个完全可写的文件系统以及软件包管理功能。这使你不再受厂商提供的应用程序选择和配置的限制，并可以通过使用软件包，根据自己的需求对设备进行定制。
 
-OpenWrt Project is a Linux operating system targeting embedded devices. Instead
-of trying to create a single, static firmware, OpenWrt provides a fully
-writable filesystem with package management. This frees you from the
-application selection and configuration provided by the vendor and allows you
-to customize the device through the use of packages to suit any application.
-For developers, OpenWrt is the framework to build an application without having
-to build a complete firmware around it; for users this means the ability for
-full customization, to use the device in ways never envisioned.
-
-Sunshine!
+对于开发者来说，OpenWrt 是一个用于构建应用程序的框架，无需围绕应用程序重新构建一个完整的固件；对于用户来说，这意味着可以对系统进行完全自定义，以各种厂商从未设想过的方式使用设备。
 
 ## Download
-
-Built firmware images are available for many architectures and come with a
-package selection to be used as WiFi home router. To quickly find a factory
-image usable to migrate from a vendor stock firmware to OpenWrt, try the
-*Firmware Selector*.
+OpenWrt 为多种硬件架构提供了已经编译好的固件镜像，并且这些固件通常会预先选择一些适合用作家庭 WiFi 路由器的软件包。
+如果你想快速找到一个可以从厂商原厂固件迁移到 OpenWrt 的固件镜像，可以尝试使用
+*Firmware Selector（固件选择器*.
 
 * [OpenWrt Firmware Selector](https://firmware-selector.openwrt.org/)
+如果你的设备受到支持，请点击**Info**（信息） 链接查看安装说明，或者参考下面列出的支持资源。
 
-If your device is supported, please follow the **Info** link to see install
-instructions or consult the support resources listed below.
 
 ## 
 
